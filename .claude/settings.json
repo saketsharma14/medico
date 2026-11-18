@@ -1,0 +1,19 @@
+{
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "includeCoAuthoredBy": false,
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && git fetch --quiet origin 2>/dev/null; if git pull --ff-only --quiet origin main 2>/dev/null; then echo \"Pulled latest from origin/main. Read docs/team/ (GOALS, TODO, UPDATES, DECISIONS) before working.\"; else echo \"WARNING: could not fast-forward to origin/main (local changes or diverged). Run: git pull --rebase origin main\"; fi; git status -sb | head -5"
+          }
+        ]
+      }
+    ]
+  }
+}

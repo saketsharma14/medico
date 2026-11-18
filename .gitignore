@@ -1,0 +1,12 @@
+# Personal Claude settings (not shared)
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*
+!.env.example
