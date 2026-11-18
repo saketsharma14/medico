@@ -8,6 +8,11 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 6)
+- Drafted deliverable 5: `docs/plan/07-integration-plan.md` (14 connectors, canonical member and claims file formats, timeline, risks).
+- Key finding: almost every external account needs a registered company, so incorporation is now the first blocker.
+- Next: go-ahead, then deliverable 6 (compliance roadmap).
+
 ## 2026-11-19 — Saket (session 5)
 - Drafted deliverable 4: `docs/plan/06-architecture.md` (components, extraction pipeline, tenancy and data firewall, security, FHIR model, repo layout).
 - Five items in its section 11 need checking before build (Medplum licence, cloud regions, in-region LLM, identity service, one FHIR modelling choice).

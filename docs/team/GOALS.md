@@ -12,7 +12,7 @@ _Dates are assumptions until the build roadmap (deliverable 7) is done._
 
 | # | Milestone | Target | Status |
 |---|-----------|--------|--------|
-| 1 | Planning deliverables 1–11 complete | Dec 2026 | In progress (4 of 11 drafted) |
+| 1 | Planning deliverables 1–11 complete | Dec 2026 | In progress (5 of 11 drafted) |
 | 2 | 15–20 discovery interviews (payers, clinics) in UAE and India | Jan 2027 | Not started |
 | 3 | Clinical advisor and incubator secured | Jan 2027 | Not started |
 | 4 | Clickable demo + working upload/extraction pipeline | Feb 2027 | Not started |
