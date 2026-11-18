@@ -8,6 +8,11 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 5)
+- Drafted deliverable 4: `docs/plan/06-architecture.md` (components, extraction pipeline, tenancy and data firewall, security, FHIR model, repo layout).
+- Five items in its section 11 need checking before build (Medplum licence, cloud regions, in-region LLM, identity service, one FHIR modelling choice).
+- Next: go-ahead, then deliverable 5 (integration plan).
+
 ## 2026-11-19 — Saket (session 4)
 - Drafted deliverable 3: `docs/plan/05-prd-mvp.md`. MVP is split into R1 (patient beta in India) and R2 (partner pilot with console and claims).
 - Open questions that block build are listed in section 8 of the PRD (guideline sign-off, drug list, claims file format).

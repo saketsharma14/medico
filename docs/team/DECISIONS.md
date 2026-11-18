@@ -38,3 +38,8 @@ _Record agreed technical choices so neither of us re-debates them._
 - **Decision:** R1 is the patient app only (upload, extraction, timeline, trends, reminders, nudges) for a founder-run beta in India. R2 adds the partner console, claims ingestion, worklist, outcome report, theming and Arabic for the first pilot.
 - **Why:** R1 needs no partner and proves extraction and retention; R2 is only worth building once a design partner is in sight.
 - **Decided by:** Saket (teammate to confirm)
+
+## 2026-11-19 — Architecture (see `docs/plan/06-architecture.md`)
+- **Decision:** One deployment cell per country, same codebase. Patients are not owned by a tenant; a membership links patient to partner. Partner console reads only a consent-filtered projection, enforced by database role. Clinical data in Medplum behind a `ClinicalRepository` interface; operational data in PostgreSQL. LLM is used for extraction only, cross-checked against OCR text. Monorepo with `apps/` and `packages/`.
+- **Why:** Data residency, patient trust, and the ability to swap country-specific pieces without touching core code.
+- **Decided by:** Saket (teammate to confirm); cloud provider and Medplum still to verify
