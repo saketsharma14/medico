@@ -8,6 +8,11 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 3)
+- Drafted deliverable 2: `docs/plan/04-discovery-kit.md` (target criteria, cold-outreach plan, four interview scripts, note template, pass/fail rules, 8-week schedule).
+- Created `docs/discovery/notes/` for interview write-ups.
+- Next: go-ahead, then deliverable 3 (PRD). Discovery week 1 can start now, in parallel.
+
 ## 2026-11-19 — Saket (session 2)
 - Saved the founding brief to `docs/plan/00-brief.md`.
 - Reviewed it: 12 amendments in `docs/plan/01-brief-review.md` (insurer ROI within the policy year, 6-month pilot with a comparison group, claims feed as connector #1, privacy firewall, smaller MVP, all-TypeScript stack).
