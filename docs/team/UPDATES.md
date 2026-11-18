@@ -8,6 +8,11 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 7)
+- Drafted deliverable 6: `docs/plan/08-compliance-roadmap.md` (legal roles, UAE and India regulatory map, five gates, device-status reasoning, clinical governance, lawyer questions, zero-budget routes).
+- It is a planning map, not legal advice; nothing in it was checked against current law.
+- Next: go-ahead, then deliverable 7 (build roadmap).
+
 ## 2026-11-19 — Saket (session 6)
 - Drafted deliverable 5: `docs/plan/07-integration-plan.md` (14 connectors, canonical member and claims file formats, timeline, risks).
 - Key finding: almost every external account needs a registered company, so incorporation is now the first blocker.
