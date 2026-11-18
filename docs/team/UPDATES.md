@@ -8,6 +8,11 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 10)
+- Drafted deliverable 9: `docs/plan/11-financial-model.md` (workbook layout, revenue drivers, cost lines, unit economics with a worked example, zero-cash path to the pilot, fundraising milestones).
+- Every number in it is a placeholder; the workbook itself is not built yet.
+- Next: go-ahead, then deliverable 10 (pitch deck outline).
+
 ## 2026-11-19 — Saket (session 9)
 - Drafted deliverable 8: `docs/plan/10-go-to-market.md` (sequence, sales steps, messages, objections, pilot proposal template, pricing hypotheses, activation playbook).
 - Prices in it are invented starting points for testing, not benchmarks.
