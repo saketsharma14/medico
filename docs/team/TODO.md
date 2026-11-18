@@ -4,10 +4,11 @@ _Claim a task by putting your name next to it and pushing before you start._
 _Format: `- [ ] Task description — @owner (optional notes)`_
 
 ## In progress
-- [ ] Review deliverable 9 (`docs/plan/11-financial-model.md`) and give go-ahead for deliverable 10 — @saket
+- [ ] Review deliverable 10 (`docs/plan/12-pitch-deck.md`) and give go-ahead for deliverable 11 — @saket
 
 ## Up next
-- [ ] Deliverable 10: pitch deck outline — @unassigned
+- [ ] Deliverable 11: risk register and 30-day action plan — @unassigned
+- [ ] Choose a company and product name; check domain and trademark availability — @both
 - [ ] Sign a founders' agreement (equity split, vesting, roles) and check the university's IP policy — @both
 - [ ] Agree weekly hours and who is Founder A / Founder B for Sprint 1 (starts 23 Nov) — @both
 - [ ] Sprint 1 build track: monorepo, CI, local environment, extraction spike on 20 reports — @unassigned
@@ -18,12 +19,13 @@ _Format: `- [ ] Task description — @owner (optional notes)`_
 - [ ] Verify cloud regions, in-region LLM/OCR options and Medplum licence (architecture section 11) — @unassigned
 - [ ] Build and score the 120-name target list (discovery kit week 1) — @unassigned
 - [ ] Ask faculty and incubator office for introductions — @unassigned
-- [ ] Both founders read `docs/plan/00`–`11` and note disagreements in UPDATES.md — @both
+- [ ] Both founders read `docs/plan/00`–`12` and note disagreements in UPDATES.md — @both
 - [ ] Shortlist incubators open to student founders (university, Hub71, in5, India schemes) — @unassigned
 - [ ] Shortlist 5 endocrinologists/diabetologists to approach as clinical advisor — @unassigned
 
 ## Backlog
-- [ ] Deliverable 11 (risk register and 30-day action plan)
+- [ ] Source market statistics with citations for pitch slides 2, 3 and 8
+- [ ] Build the slides from `12-pitch-deck.md` once name, demo clip and statistics exist
 - [ ] Build the financial workbook (tabs 1–4 and 8 first) from `11-financial-model.md`
 - [ ] List grants, competitions and credit programmes open to student teams, with deadlines
 - [ ] Replace pricing hypotheses in `10-go-to-market.md` with figures from discovery interviews
@@ -44,3 +46,4 @@ _Format: `- [ ] Task description — @owner (optional notes)`_
 - [x] Deliverable 7 draft: build roadmap — @saket
 - [x] Deliverable 8 draft: go-to-market plan — @saket
 - [x] Deliverable 9 draft: financial model structure — @saket
+- [x] Deliverable 10 draft: pitch deck outline — @saket

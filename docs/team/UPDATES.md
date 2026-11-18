@@ -8,6 +8,11 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 11)
+- Drafted deliverable 10: `docs/plan/12-pitch-deck.md` (14-slide investor deck, 8-slide partner deck, 5-minute demo script, investor questions).
+- No statistics are filled in; each slide says which number is needed and where to get it.
+- Next: go-ahead, then deliverable 11 (risk register and 30-day action plan), the last planning deliverable.
+
 ## 2026-11-19 — Saket (session 10)
 - Drafted deliverable 9: `docs/plan/11-financial-model.md` (workbook layout, revenue drivers, cost lines, unit economics with a worked example, zero-cash path to the pilot, fundraising milestones).
 - Every number in it is a placeholder; the workbook itself is not built yet.

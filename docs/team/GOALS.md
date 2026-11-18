@@ -12,7 +12,7 @@ _From `docs/plan/09-build-roadmap.md`. Dates assume about 20 hours per founder p
 
 | # | Milestone | Target | Status |
 |---|-----------|--------|--------|
-| 1 | Planning deliverables 1–11 complete | Dec 2026 | In progress (9 of 11 drafted) |
+| 1 | Planning deliverables 1–11 complete | Dec 2026 | In progress (10 of 11 drafted) |
 | 2 | Repo, CI, local environment and extraction spike | 6 Dec 2026 | Not started |
 | 3 | Discovery summary and first-buyer decision (25+ interviews) | 31 Jan 2027 | Not started |
 | 4 | Full R1 feature set on synthetic data; demo ready | 14 Feb 2027 | Not started |
