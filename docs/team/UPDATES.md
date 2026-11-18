@@ -8,6 +8,11 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 9)
+- Drafted deliverable 8: `docs/plan/10-go-to-market.md` (sequence, sales steps, messages, objections, pilot proposal template, pricing hypotheses, activation playbook).
+- Prices in it are invented starting points for testing, not benchmarks.
+- Next: go-ahead, then deliverable 9 (financial model structure).
+
 ## 2026-11-19 — Saket (session 8)
 - Drafted deliverable 7: `docs/plan/09-build-roadmap.md` (6 phases to May 2028, 18 milestones, 6 sprints in detail, team needs, cut order, decision checkpoints).
 - Sprint 1 starts Monday 23 Nov. Dates assume about 20 hours each per week; adjust if that's wrong.
