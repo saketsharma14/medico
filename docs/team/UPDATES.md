@@ -8,6 +8,12 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 12)
+- Drafted deliverable 11: `docs/plan/13-risks-and-30-day-plan.md` (24 risks, week-by-week plan to 19 Dec). All 11 planning deliverables are now drafted.
+- Added `docs/plan/README.md` as an index. Rewrote TODO.md around the 30-day plan.
+- Nothing in the plan has been reviewed by the second founder, a clinician or a lawyer yet.
+- Next: both founders review; then start building (Sprint 1: repository structure and backbone).
+
 ## 2026-11-19 — Saket (session 11)
 - Drafted deliverable 10: `docs/plan/12-pitch-deck.md` (14-slide investor deck, 8-slide partner deck, 5-minute demo script, investor questions).
 - No statistics are filled in; each slide says which number is needed and where to get it.

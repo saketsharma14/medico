@@ -2,36 +2,40 @@
 
 _Claim a task by putting your name next to it and pushing before you start._
 _Format: `- [ ] Task description — @owner (optional notes)`_
+_Current plan: first 30 days, 20 Nov – 19 Dec 2026 (`docs/plan/13-risks-and-30-day-plan.md`)._
 
 ## In progress
-- [ ] Review deliverable 10 (`docs/plan/12-pitch-deck.md`) and give go-ahead for deliverable 11 — @saket
+- [ ] Both founders read `docs/plan/` (start at its README) and list disagreements in UPDATES.md — @both
 
-## Up next
-- [ ] Deliverable 11: risk register and 30-day action plan — @unassigned
-- [ ] Choose a company and product name; check domain and trademark availability — @both
-- [ ] Sign a founders' agreement (equity split, vesting, roles) and check the university's IP policy — @both
-- [ ] Agree weekly hours and who is Founder A / Founder B for Sprint 1 (starts 23 Nov) — @both
-- [ ] Sprint 1 build track: monorepo, CI, local environment, extraction spike on 20 reports — @unassigned
-- [ ] Sprint 1 business track: target list, introductions, first 50 messages, sample reports — @unassigned
-- [ ] Find a lawyer or legal clinic for the Gate A review (India) and the UAE regulatory opinion — @unassigned
-- [ ] Decide where to incorporate (blocks app store, SMS, WhatsApp and cloud-credit accounts) — @both
-- [ ] Register for a LOINC licence — @unassigned
-- [ ] Verify cloud regions, in-region LLM/OCR options and Medplum licence (architecture section 11) — @unassigned
-- [ ] Build and score the 120-name target list (discovery kit week 1) — @unassigned
-- [ ] Ask faculty and incubator office for introductions — @unassigned
-- [ ] Both founders read `docs/plan/00`–`12` and note disagreements in UPDATES.md — @both
-- [ ] Shortlist incubators open to student founders (university, Hub71, in5, India schemes) — @unassigned
-- [ ] Shortlist 5 endocrinologists/diabetologists to approach as clinical advisor — @unassigned
+## Up next — week 1 (20–29 Nov)
+- [ ] Agree weekly hours and who owns the build track and the business track — @both
+- [ ] Draft founders' agreement (equity, vesting, roles, IP assignment) — @both
+- [ ] Read the university IP policy; ask the incubator office — @unassigned
+- [ ] Build: monorepo, CI, Docker Compose with PostgreSQL, Redis, Medplum — @unassigned
+- [ ] Build: verify cloud regions, in-region LLM/OCR options, Medplum licence (architecture section 11) — @unassigned
+- [ ] Business: start the 120-name target list — @unassigned
+- [ ] Business: ask faculty and incubator office for introductions — @unassigned
+- [ ] Business: shortlist incubators with deadlines; register for a LOINC licence — @unassigned
+
+## Up next — weeks 2–4 (30 Nov – 19 Dec)
+- [ ] Build: collect 20+ de-identified sample reports; extraction spike with measured accuracy — @unassigned
+- [ ] Build: extraction package (schema, validators, OCR cross-check, LOINC synonyms, evaluation harness on 50 reports) — @unassigned
+- [ ] Build: API skeleton (tester login, profile, versioned consent) — @unassigned
+- [ ] Business: send 100+ outreach messages; complete 5 interviews; book 5 more — @unassigned
+- [ ] Business: contact 5 clinical-advisor candidates — @unassigned
+- [ ] Business: submit 2 incubator applications; decide where to incorporate — @unassigned
+- [ ] Sign the founders' agreement; choose candidate names and check domains — @both
+- [ ] First monthly risk review (18 Dec) — @both
 
 ## Backlog
-- [ ] Source market statistics with citations for pitch slides 2, 3 and 8
-- [ ] Build the slides from `12-pitch-deck.md` once name, demo clip and statistics exist
+- [ ] Find a lawyer or legal clinic for the Gate A review (India) and the UAE regulatory opinion
+- [ ] Verify the [Verify] items across `docs/plan/` before any external use
+- [ ] Replace pricing hypotheses in `10-go-to-market.md` with figures from discovery
 - [ ] Build the financial workbook (tabs 1–4 and 8 first) from `11-financial-model.md`
 - [ ] List grants, competitions and credit programmes open to student teams, with deadlines
-- [ ] Replace pricing hypotheses in `10-go-to-market.md` with figures from discovery interviews
-- [ ] Verify the [Verify] items in `01-brief-review.md` and the competitor table in `03-lean-canvas.md`
-- [ ] Collect 30+ sample lab reports (UAE and India, anonymised) for the extraction test set
-- [ ] Set up repository structure and MVP backbone (after deliverable 4)
+- [ ] Source market statistics with citations for pitch slides 2, 3 and 8
+- [ ] Build the slides from `12-pitch-deck.md` once name, demo clip and statistics exist
+- [ ] Sprints 3–6 (see `09-build-roadmap.md`)
 
 ## Done
 - [x] Connect repo and set up team docs — @saket
@@ -47,3 +51,4 @@ _Format: `- [ ] Task description — @owner (optional notes)`_
 - [x] Deliverable 8 draft: go-to-market plan — @saket
 - [x] Deliverable 9 draft: financial model structure — @saket
 - [x] Deliverable 10 draft: pitch deck outline — @saket
+- [x] Deliverable 11 draft: risk register and 30-day action plan — @saket
