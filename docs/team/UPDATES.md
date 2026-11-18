@@ -8,6 +8,11 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 4)
+- Drafted deliverable 3: `docs/plan/05-prd-mvp.md`. MVP is split into R1 (patient beta in India) and R2 (partner pilot with console and claims).
+- Open questions that block build are listed in section 8 of the PRD (guideline sign-off, drug list, claims file format).
+- Next: go-ahead, then deliverable 4 (system architecture).
+
 ## 2026-11-19 — Saket (session 3)
 - Drafted deliverable 2: `docs/plan/04-discovery-kit.md` (target criteria, cold-outreach plan, four interview scripts, note template, pass/fail rules, 8-week schedule).
 - Created `docs/discovery/notes/` for interview write-ups.
