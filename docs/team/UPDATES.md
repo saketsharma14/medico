@@ -8,6 +8,10 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 14)
+- CI is live: GitHub Actions runs lint, type-check and tests on every push to `main` and every pull request. First run passed.
+- The run warned that the checkout, Node setup and pnpm setup actions target a deprecated Node version; update them to newer major versions when convenient.
+
 ## 2026-11-19 — Saket (session 13)
 - Set up the monorepo (pnpm workspaces), lint, type-check and tests. `pnpm check` passes.
 - `apps/api`: NestJS skeleton with `GET /health`; built and run locally.

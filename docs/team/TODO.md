@@ -12,7 +12,6 @@ _Current plan: first 30 days, 20 Nov – 19 Dec 2026 (`docs/plan/13-risks-and-30
 - [ ] Draft founders' agreement (equity, vesting, roles, IP assignment) — @both
 - [ ] Read the university IP policy; ask the incubator office — @unassigned
 - [ ] Build: add Medplum to Docker Compose and test it (needs Docker installed) — @unassigned
-- [ ] Enable CI: grant the GitHub CLI the `workflow` scope so `.github/workflows/ci.yml` can be pushed — @saket
 - [ ] Build: verify cloud regions, in-region LLM/OCR options, Medplum licence (architecture section 11) — @unassigned
 - [ ] Business: start the 120-name target list — @unassigned
 - [ ] Business: ask faculty and incubator office for introductions — @unassigned
@@ -56,3 +55,4 @@ _Current plan: first 30 days, 20 Nov – 19 Dec 2026 (`docs/plan/13-risks-and-30
 - [x] Deliverable 11 draft: risk register and 30-day action plan — @saket
 - [x] Monorepo, lint, type-check, tests, API skeleton with health endpoint — @saket
 - [x] Extraction package core: schema, name and unit normalisation, OCR cross-check, plausibility checks, 13 tests — @saket
+- [x] CI enabled: lint, type-check and tests run on every push and pull request — @saket
