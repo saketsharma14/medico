@@ -16,6 +16,13 @@ Before doing any task, read these files so you know the current state:
 - `docs/team/UPDATES.md` — log of what each person has done recently
 - `docs/team/DECISIONS.md` — technical decisions already agreed on (don't re-litigate these)
 
+### Project plan
+The business and product plan lives in `docs/plan/`. Read these before giving product, architecture or strategy advice:
+- `00-brief.md` — founding brief, including the advisor role Claude should take and the formatting rules ([Assumption] / [Verify] tags)
+- `01-brief-review.md` — amendments that override the brief
+- `02-founder-inputs.md` — team, budget, markets, contacts
+- `03-...` onward — planning deliverables, produced one at a time with founder go-ahead between each
+
 ## 3. Keep the team board updated
 Whenever you finish (or start) meaningful work:
 - `TODO.md`: move tasks between sections, put the owner's name on what you are working on, mark done items `[x]`.
