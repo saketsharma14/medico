@@ -43,3 +43,13 @@ _Record agreed technical choices so neither of us re-debates them._
 - **Decision:** One deployment cell per country, same codebase. Patients are not owned by a tenant; a membership links patient to partner. Partner console reads only a consent-filtered projection, enforced by database role. Clinical data in Medplum behind a `ClinicalRepository` interface; operational data in PostgreSQL. LLM is used for extraction only, cross-checked against OCR text. Monorepo with `apps/` and `packages/`.
 - **Why:** Data residency, patient trust, and the ability to swap country-specific pieces without touching core code.
 - **Decided by:** Saket (teammate to confirm); cloud provider and Medplum still to verify
+
+## 2026-11-19 — Repository tooling
+- **Decision:** pnpm workspaces without a build orchestrator; internal packages export TypeScript source directly; Vitest for tests (with SWC in the API for decorator metadata); ESLint flat config; TypeScript pinned to 5.9.
+- **Why:** Fewest moving parts for two people. TypeScript 7 installed by default and broke the lint tooling's supported range.
+- **Decided by:** Saket (teammate to confirm)
+
+## 2026-11-19 — Extraction never guesses
+- **Decision:** Test names match only a curated synonym table (no fuzzy matching); ambiguous names such as plain "glucose" stay unmapped; a value absent from the OCR text needs field-level confirmation; an implausible value or wrong unit blocks saving.
+- **Why:** A confidently wrong lab value is the main safety and credibility risk.
+- **Decided by:** Saket (teammate and clinical advisor to confirm)

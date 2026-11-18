@@ -11,7 +11,8 @@ _Current plan: first 30 days, 20 Nov – 19 Dec 2026 (`docs/plan/13-risks-and-30
 - [ ] Agree weekly hours and who owns the build track and the business track — @both
 - [ ] Draft founders' agreement (equity, vesting, roles, IP assignment) — @both
 - [ ] Read the university IP policy; ask the incubator office — @unassigned
-- [ ] Build: monorepo, CI, Docker Compose with PostgreSQL, Redis, Medplum — @unassigned
+- [ ] Build: add Medplum to Docker Compose and test it (needs Docker installed) — @unassigned
+- [ ] Enable CI: grant the GitHub CLI the `workflow` scope so `.github/workflows/ci.yml` can be pushed — @saket
 - [ ] Build: verify cloud regions, in-region LLM/OCR options, Medplum licence (architecture section 11) — @unassigned
 - [ ] Business: start the 120-name target list — @unassigned
 - [ ] Business: ask faculty and incubator office for introductions — @unassigned
@@ -19,7 +20,8 @@ _Current plan: first 30 days, 20 Nov – 19 Dec 2026 (`docs/plan/13-risks-and-30
 
 ## Up next — weeks 2–4 (30 Nov – 19 Dec)
 - [ ] Build: collect 20+ de-identified sample reports; extraction spike with measured accuracy — @unassigned
-- [ ] Build: extraction package (schema, validators, OCR cross-check, LOINC synonyms, evaluation harness on 50 reports) — @unassigned
+- [ ] Build: evaluation harness on 50 labelled reports; OCR and model providers behind the interfaces in `packages/extraction` — @unassigned
+- [ ] Verify every LOINC code, conversion factor and bound in `packages/extraction/src/markers.ts` — @unassigned (clinical advisor to sign off)
 - [ ] Build: API skeleton (tester login, profile, versioned consent) — @unassigned
 - [ ] Business: send 100+ outreach messages; complete 5 interviews; book 5 more — @unassigned
 - [ ] Business: contact 5 clinical-advisor candidates — @unassigned
@@ -52,3 +54,5 @@ _Current plan: first 30 days, 20 Nov – 19 Dec 2026 (`docs/plan/13-risks-and-30
 - [x] Deliverable 9 draft: financial model structure — @saket
 - [x] Deliverable 10 draft: pitch deck outline — @saket
 - [x] Deliverable 11 draft: risk register and 30-day action plan — @saket
+- [x] Monorepo, lint, type-check, tests, API skeleton with health endpoint — @saket
+- [x] Extraction package core: schema, name and unit normalisation, OCR cross-check, plausibility checks, 13 tests — @saket

@@ -8,6 +8,14 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 13)
+- Set up the monorepo (pnpm workspaces), lint, type-check and tests. `pnpm check` passes.
+- `apps/api`: NestJS skeleton with `GET /health`; built and run locally.
+- `packages/extraction`: fixed output schema, test-name and unit normalisation for 11 diabetes markers, OCR cross-check, plausibility and unit checks, 13 tests on synthetic data.
+- Not done: Medplum (Docker isn't installed on this machine, so the compose file is untested), mobile app, OCR and model calls, evaluation harness.
+- The marker catalogue (LOINC codes, conversion factors, bounds) is from memory and not clinically reviewed.
+- Next: enable CI, collect sample reports, extraction spike.
+
 ## 2026-11-19 — Saket (session 12)
 - Drafted deliverable 11: `docs/plan/13-risks-and-30-day-plan.md` (24 risks, week-by-week plan to 19 Dec). All 11 planning deliverables are now drafted.
 - Added `docs/plan/README.md` as an index. Rewrote TODO.md around the 30-day plan.

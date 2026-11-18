@@ -23,6 +23,13 @@ The business and product plan lives in `docs/plan/`. Read these before giving pr
 - `02-founder-inputs.md` — team, budget, markets, contacts
 - `03-...` onward — planning deliverables, produced one at a time with founder go-ahead between each
 
+### Code
+- Monorepo with pnpm workspaces: `apps/api` (NestJS), `apps/mobile` (not started), `packages/extraction`.
+- Before every commit run `pnpm check` (lint, type-check, tests). Do not push if it fails.
+- Tests are required for anything in `packages/extraction`, and later for care rules, consent and tenancy.
+- Never commit real patient data or real lab reports; tests use synthetic data only. Never log health values or identifiers.
+- TypeScript is pinned to 5.9 because the lint and NestJS tooling do not yet support newer major versions; do not upgrade without checking both.
+
 ## 3. Keep the team board updated
 Whenever you finish (or start) meaningful work:
 - `TODO.md`: move tasks between sections, put the owner's name on what you are working on, mark done items `[x]`.

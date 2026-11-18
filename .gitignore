@@ -10,3 +10,13 @@
 .env
 .env.*
 !.env.example
+
+# Node
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Sample lab reports and anything derived from real documents must never be committed
+samples/
+*.local.*
