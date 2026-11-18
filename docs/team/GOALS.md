@@ -8,16 +8,21 @@ A white-label chronic-care platform (B2B2C) that pulls a patient's scattered rec
 Full plan: [`docs/plan/`](../plan/) — start with `00-brief.md`, then `01-brief-review.md` and `02-founder-inputs.md`.
 
 ## Milestones
-_Dates are assumptions until the build roadmap (deliverable 7) is done._
+_From `docs/plan/09-build-roadmap.md`. Dates assume about 20 hours per founder per week._
 
 | # | Milestone | Target | Status |
 |---|-----------|--------|--------|
-| 1 | Planning deliverables 1–11 complete | Dec 2026 | In progress (6 of 11 drafted) |
-| 2 | 15–20 discovery interviews (payers, clinics) in UAE and India | Jan 2027 | Not started |
-| 3 | Clinical advisor and incubator secured | Jan 2027 | Not started |
-| 4 | Clickable demo + working upload/extraction pipeline | Feb 2027 | Not started |
-| 5 | India founder-run beta, 50–100 consenting users | Apr 2027 | Not started |
-| 6 | First design-partner pilot signed (clinic chain, TPA or employer) | Aug 2027 | Not started |
+| 1 | Planning deliverables 1–11 complete | Dec 2026 | In progress (7 of 11 drafted) |
+| 2 | Repo, CI, local environment and extraction spike | 6 Dec 2026 | Not started |
+| 3 | Discovery summary and first-buyer decision (25+ interviews) | 31 Jan 2027 | Not started |
+| 4 | Full R1 feature set on synthetic data; demo ready | 14 Feb 2027 | Not started |
+| 5 | Company registered, incubator joined, clinical advisor signed | 28 Feb 2027 | Not started |
+| 6 | Gate A passed (extraction launch gate, clinical and legal sign-off) | 31 Mar 2027 | Not started |
+| 7 | India beta: 50+ users with 30-day retention measured | 15 Jun 2027 | Not started |
+| 8 | Design partner signs pilot agreement | 30 Jun 2027 | Not started |
+| 9 | Gate B passed; pilot go-live | Sep 2027 | Not started |
+| 10 | Pilot outcome report | Mar 2028 | Not started |
+| 11 | Contract signed; customer #2 in negotiation; seed round opened | May 2028 | Not started |
 
 ## Out of scope (for now)
 - Any feature that recommends or changes medication (clinical safety line)

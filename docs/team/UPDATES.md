@@ -8,6 +8,12 @@ _Newest entries on top. One entry per work session or meaningful change._
 - What's next / blockers
 -->
 
+## 2026-11-19 — Saket (session 8)
+- Drafted deliverable 7: `docs/plan/09-build-roadmap.md` (6 phases to May 2028, 18 milestones, 6 sprints in detail, team needs, cut order, decision checkpoints).
+- Sprint 1 starts Monday 23 Nov. Dates assume about 20 hours each per week; adjust if that's wrong.
+- GOALS.md milestones now match the roadmap.
+- Next: go-ahead, then deliverable 8 (go-to-market plan).
+
 ## 2026-11-19 — Saket (session 7)
 - Drafted deliverable 6: `docs/plan/08-compliance-roadmap.md` (legal roles, UAE and India regulatory map, five gates, device-status reasoning, clinical governance, lawyer questions, zero-budget routes).
 - It is a planning map, not legal advice; nothing in it was checked against current law.
